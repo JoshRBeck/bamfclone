@@ -2,51 +2,61 @@ import PyPDF2
 import json
 import re
 
-# Function to extract text from PDF
 def extract_text_from_pdf(pdf_path):
-    pdf_file = open(pdf_path, 'rb')
-    pdf_reader = PyPDF2.PdfReader(pdf_file)
-
-    text = ''
-    for page_num in range(len(pdf_reader.pages)):
-        page = pdf_reader.pages[page_num]
-        text += page.extract_text()
-
-    pdf_file.close()
+    with open(pdf_path, 'rb') as pdf_file:
+        pdf_reader = PyPDF2.PdfReader(pdf_file)
+        text = ''
+        for page_num in range(len(pdf_reader.pages)):
+            page = pdf_reader.pages[page_num]
+            text += page.extract_text()
     return text
 
-# Function to parse text into questions and answers
 def parse_text_to_qa(text):
     qa_list = []
-    # Example pattern: Split by question numbers (assuming they are followed by a dot and a space)
-    questions = re.split(r'\d+\.\s', text)[1:]  # Skip the first empty element
+    
+    # Adjust the split pattern to better match the PDF's format
+    questions = re.split(r'\bAufgabe\s*\d+', text)[1:]  # Skip the first empty element
+    
     for question in questions:
-        parts = question.strip().split('\n')
+        parts = re.split(r'\n+', question.strip())
+        
+        # Correctly identify the question text
         question_text = parts[0].strip()
-        answers = [part.strip() for part in parts[1:5]]  # Assuming each question has 4 answers
-        correct_answer = parts[5].strip() if len(parts) > 5 else None  # Assuming the correct answer is provided separately
+        
+        # Combine multiline answers
+        answers = []
+        temp_answer = ""
+        for part in parts[1:]:
+            if re.match(r'^\s*', part):
+                if temp_answer:
+                    answers.append(temp_answer.strip())
+                temp_answer = part
+            else:
+                temp_answer += " " + part
+        if temp_answer:
+            answers.append(temp_answer.strip())
+
+        # Placeholder for correct answer
+        correct_answer = "PLACEHOLDER"  # Placeholder to be manually updated
+        
         qa_list.append({
             "question": question_text,
             "answers": answers,
             "correct_answer": correct_answer
         })
+    
     return qa_list
 
-# Function to save data to JSON file
 def save_to_json(data, json_path):
     with open(json_path, 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, indent=4, ensure_ascii=False)
 
-# Main Function
 def main():
-    pdf_path = 'fragenkatalog.pdf'
-    json_path = 'questions.json'
+    pdf_path = 'C:/Users/Josh Beck/Documents/Coding/bamfclone/src/fragenkatalog.pdf'  # Adjust the path to your local PDF file
+    json_path = 'C:/Users/Josh Beck/Documents/Coding/bamfclone/src/questions.json'  # Adjust the path to your local JSON file
 
     # Extract text from PDF
     text = extract_text_from_pdf(pdf_path)
-
-    # Print extracted text (for debugging purposes)
-    print(text)
 
     # Parse text into questions and answers
     questions = parse_text_to_qa(text)
