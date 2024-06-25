@@ -1,0 +1,135 @@
+[
+    {
+        "question": "Lebensjahr ihres Kindes entscheiden, ob es in der",
+        "answers": [
+            "Schule am …",
+            " Geschichtsunterricht teilnimmt.",
+            " Religionsunterricht teilnimmt.",
+            " Politikunterricht teilnimmt."
+        ],
+        "correct_answer": " Sprachunterricht teilnimmt."
+    },
+    {
+        "question": "Lebensjahr",
+        "answers": [
+            "besitzen?",
+            " einen Reisepass",
+            " einen Personalausweis",
+            " einen Sozialversicherungsausweis"
+        ],
+        "correct_answer": " einen Führerschein"
+    },
+    {
+        "question": "Mai 1945?",
+        "answers": [
+            " Tod Adolf Hitlers",
+            " Beginn des Berliner Mauerbaus",
+            " Wahl von Konrad Adenauer zum Bundeskanzler",
+            " Ende des Zweiten Weltkriegs in Europa"
+        ],
+        "correct_answer": "Aufgabe 154 Wann war der Zweite Weltkrieg zu Ende?"
+    },
+    {
+        "question": " den Bau des Reichstagsgebäudes.",
+        "answers": [
+            " den Aufbau der Wehrmacht.",
+            " das Attentat auf Hitler am"
+        ],
+        "correct_answer": null
+    },
+    {
+        "question": "Juli",
+        "answers": [],
+        "correct_answer": null
+    },
+    {
+        "question": "Aufgabe 163 In welchem Jahr zerstörten die Nationalsozialisten Synagogen und jüdische Geschäfte in",
+        "answers": [
+            "Deutschland?",
+            " 1925",
+            " 1930",
+            " 1938"
+        ],
+        "correct_answer": " 1945"
+    },
+    {
+        "question": "November 1938 in Deutschland?",
+        "answers": [
+            " Mit dem Angriff auf Polen beginnt der Zweite Weltkrieg.",
+            " Die Nationalsozialisten verlieren eine Wahl und lösen den Reichstag auf.",
+            " Jüdische Geschäfte und Synagogen werden durch Nationalsozialisten und ihre",
+            "Anhänger zerstört."
+        ],
+        "correct_answer": " Hitler wird Reichspräsident und lässt alle Parteien verbieten."
+    },
+    {
+        "question": "Mai",
+        "answers": [
+            ""
+        ],
+        "correct_answer": null
+    },
+    {
+        "question": "Juni",
+        "answers": [
+            ""
+        ],
+        "correct_answer": null
+    },
+    {
+        "question": "Juli",
+        "answers": [
+            ""
+        ],
+        "correct_answer": null
+    },
+    {
+        "question": "November",
+        "answers": [
+            "",
+            "",
+            "",
+            "Seite 70  von 190"
+        ],
+        "correct_answer": "Aufgabe 187"
+    },
+    {
+        "question": "Oktober feiert man in Deutschland den Tag der Deutschen …",
+        "answers": [
+            " Einheit.",
+            " Nation.",
+            " Bundesländer.",
+            " Städte."
+        ],
+        "correct_answer": ""
+    },
+    {
+        "question": "Juni 1953 in der DDR?",
+        "answers": [
+            " der feierliche Beitritt zum Warschauer Pakt",
+            " landesweite Streiks und ein Volksaufstand",
+            " der"
+        ],
+        "correct_answer": null
+    },
+    {
+        "question": "SED- Parteitag",
+        "answers": [
+            " der erste Besuch Fidel Castros",
+            "",
+            "",
+            ""
+        ],
+        "correct_answer": ""
+    },
+    {
+        "question": "Januar ist in Deutschland ein offizieller Gedenktag. Woran erinnert dieser Tag?",
+        "answers": [
+            " an das Ende des Zweiten Weltkrieges",
+            " an die Verabschiedung des Grundgesetzes",
+            " an die Wiedervereinigung Deutschlands",
+            " an die Opfer des Nationalsozialismus"
+        ],
+        "correct_answer": ""
+    }
+]
