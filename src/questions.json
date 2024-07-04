@@ -388,12 +388,12 @@
   {
     "question": "Warum gibt es in einer Demokratie mehr als eine Partei?",
     "answers": [
-      " weil dadurch die unterschiedlichen Meinungen der Bürger innen und Bürger  vertreten werden",
+      " weil dadurch die unterschiedlichen Meinungen der Bürger innen und Bürger vertreten werden",
       " damit Bestechung in der Politik begrenzt wird",
       " um politische Demonst rationen zu verhindern",
       " um wirtschaftlichen Wettbewerb anzuregen"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "weil dadurch die unterschiedlichen Meinungen der Bürger innen und Bürger vertreten werden"
   },
   {
     "question": "Wer beschließt in Deutschland ein neues Gesetz?",
@@ -403,7 +403,7 @@
       " die Gerichte",
       " die Polizei"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "das Parlament"
   },
   {
     "question": "Wann kann in Deutschland eine Partei verboten werden?",
@@ -411,9 +411,9 @@
       " wenn ihr Wahlkampf zu teuer ist",
       " wenn sie gegen die Verfassung kämpft",
       " wenn sie Kritik am Staatsoberhaupt äußert",
-      " wenn ihr Programm eine neue Richtung vorschlägt           Seite 17  von 190"
+      " wenn ihr Programm eine neue Richtung vorschlägt"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "wenn sie gegen die Verfassung kämpft"
   },
   {
     "question": "Wen kann man als Bürger in/Bürger in Deutschland nicht  direkt wählen?",
@@ -423,7 +423,7 @@
       " Landtagsabgeordnete",
       " Bundestagsabgeordnete"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Die Bundespräsidentin/den Bundespräsidenten"
   },
   {
     "question": "Zu welcher Versicherung gehört die Pflegeversicherung?",
@@ -431,13 +431,19 @@
       " Sozialversicherung",
       " Unfallversicherung",
       " Hausratsversicherung",
-      " Haftpflicht- und Feuerversicherung   Aufg abe 46   Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört dazu?",
+      " Haftpflicht- und Feuerversicherung"
+    ],
+    "correct_answer": "Sozialversicherung"
+  },
+  {
+    "question": "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört dazu?",
+    "answers": [
       " Er baut Straßen und Schulen.",
       " Er verkauft Lebensmittel und Kleidung.",
       " Er versorgt alle Einwohner innen und Einwohner kostenlos mit Zeitungen.",
-      " Er produziert Autos und Busse.           Seite 18  von 190"
+      " Er produziert Autos und Busse."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Er baut Straßen und Schulen."
   },
   {
     "question": "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört nicht  dazu?",
@@ -447,17 +453,17 @@
       " Er unterstützt Museen.",
       " Er fördert Sportlerinnen  und Sportler ."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Er bezahlt für alle Staatsangehörigen Urlaubsreisen."
   },
   {
-    "question": "Welches Organ gehört nicht  zu den Verfassungsorganen Deutschlands?",
+    "question": "Welches Organ gehört nicht zu den Verfassungsorganen Deutschlands?",
     "answers": [
       " der Bundesrat",
       " die Bundespräsident in/der Bundespräsident",
       " die Bürgerversammlung",
       " die Regierung"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die Bürgerversammlung"
   },
   {
     "question": "Wer bestimmt in Deutschland die Schulpolitik?",
@@ -465,9 +471,9 @@
       " die Lehrer und Lehrerinnen",
       " die Bundesländer",
       " das Familienministerium",
-      " die Universitäten          Seite 19  von 190"
+      " die Universitäten"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die Bundesländer"
   },
   {
     "question": "Die Wirtschaftsform in Deutschland nennt man …",
@@ -477,7 +483,7 @@
       " gelenkte Zentralwirtschaft.",
       " Planwirtschaft."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "soziale Marktwirtschaft."
   },
   {
     "question": "Zu einem demokratischen Rechtsstaat gehört es nicht , dass …",
@@ -487,7 +493,7 @@
       " Menschen von einer Privatpolizei ohne Grund verhaftet werden.",
       " jemand ein Verbrechen begeht und deshalb verhaftet wird."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Menschen von einer Privatpolizei ohne Grund verhaftet werden."
   },
   {
     "question": "Was bedeutet \"Volkssouveränität\"? Alle Staatsgewalt geht vom ...",
@@ -495,9 +501,9 @@
       " Volke aus.",
       " Bundestag aus.",
       " preußischen König aus.",
-      " Bundesverfassungsgericht aus.           Seite 20  von 190"
+      " Bundesverfassungsgericht aus."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Volke aus."
   },
   {
     "question": "Was bedeutet \"Rechtsstaat\" in Deutschland?",
@@ -507,17 +513,12 @@
       " Die Bürgerinnen und Bürger entscheiden über Gesetze.",
       " Der Staat muss die Gesetze einhalten."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Der Staat muss die Gesetze einhalten."
   },
   {
     "question": "Was ist keine staatliche Gewalt in Deutschland?",
-    "answers": [
-      " Legislative",
-      " Judikative",
-      " Exekutive",
-      " Direktive           Seite 21  von 190"
-    ],
-    "correct_answer": "PLACEHOLDER"
+    "answers": [" Legislative", " Judikative", " Exekutive", " Direktive"],
+    "correct_answer": "Direktive"
   },
   {
     "question": "Was zeigt dieses Bild?",
@@ -528,7 +529,7 @@
       " das Bundesratsgebäude in Berlin",
       " das Bundeskanzleramt in Berlin"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "den Bundestagssitz in Berlin"
   },
   {
     "question": "Welches Amt gehört in Deutschland zur Gemeindeverwaltung?",
@@ -536,19 +537,19 @@
       " Pfarramt",
       " Ordnungsamt",
       " Finanzamt",
-      " Auswärtiges Amt         Seite 22  von 190"
+      " Auswärtiges Amt"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Ordnungsamt"
   },
   {
-    "question": "Wer wird meistens zu r Präsident in/zum Präsident en des Deutschen Bundestages gewählt?",
+    "question": "Wer wird meistens zur Präsident in/zum Präsident en des Deutschen Bundestages gewählt?",
     "answers": [
       " die/der  älteste Abgeordnete im Parlament",
       " die Ministerpräsident in/der Ministerpräsident des größten Bundeslandes",
       " eine ehemalige Bundeskanzler in/ein ehemaliger Bundeskanzler",
       " eine Abgeordnete/ein Abgeordneter der stärksten Fraktion"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "eine Abgeordnete/ein Abgeordneter der stärksten Fraktion"
   },
   {
     "question": "Wer ernennt in Deutschland die Minister innen/die Minister der Bundesregierung?",
@@ -558,7 +559,7 @@
       " die Bundesratspräsident in/der Bundesratspräsident",
       " die Bundestagspräsident in/der Bundestagspräsident"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die Bundespräsident in/der Bundespräsident"
   },
   {
     "question": "Welche Parteien wurden in Deutschland 2007 zur Partei \"Die Linke\"?",
@@ -566,9 +567,19 @@
       " CDU und SSW",
       " PDS und WASG",
       " CSU und FDP",
-      " Bündnis 90/Die Grünen und SPD           Seite 23  von 190"
+      " Bündnis 90/Die Grünen und SPD"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "PSD und WASG"
+  },
+  {
+    "question": "Vor wie Jahren gab es erstmals eine Jüdische Gemeinde auf dem Gebiets des heutigens Deutschlands?",
+    "answers": [
+      " Vor etwa 300 Jahren",
+      " Vor etwa 700 Jahren",
+      " Vor etwa 1150 Jahren",
+      " Vor etwa 1700 Jahren"
+    ],
+    "correct_answer": "Vor etwa 1700 Jahren"
   },
   {
     "question": "In Deutschland gehören der Bundestag und der Bundesrat zur …",
@@ -578,7 +589,7 @@
       " Direktive.",
       " Judikative."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Legislative."
   },
   {
     "question": "Was bedeutet \"Volkssouveränität\"?",
@@ -588,7 +599,7 @@
       " Die Interessenverbände üben die Souveränität zusammen mit der Regierung  aus.",
       " Die Staatsgewalt geht vom Volke aus."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Die Staatsgewalt geht vom Volke aus."
   },
   {
     "question": "Wenn das Parlament eines deutschen Bundeslandes gewählt wird, nennt man das …",
@@ -596,39 +607,39 @@
       " Kommunalwahl",
       " Landtagswahl",
       " Europawahl",
-      " Bund estagswahl           Seite 24  von 190"
+      " Bund estagswahl"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Landtagswahl"
   },
   {
-    "question": "Was gehört in Deutschland nicht  zur Exekutive?",
+    "question": "Was gehört in Deutschland nicht zur Exekutive?",
     "answers": [
       " die Polizei",
       " die Gerichte",
       " das Finanzamt",
       " die Ministerien"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die Gerichte"
   },
   {
     "question": "Die Bundesrepublik Deutschland ist heute gegliedert in …",
     "answers": [
       " vier Besatzungszonen.",
       " einen Oststaat und einen Weststaat.",
-      " 16 K antone.",
+      " 16 Kantone.",
       " Bund, Länder und Kommunen."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Bund, Länder und Kommunen."
   },
   {
-    "question": "Es gehört nicht  zu den Aufgaben des Deutschen Bundestages, …",
+    "question": "Es gehört nicht zu den Aufgaben des Deutschen Bundestages, …",
     "answers": [
       " Gesetze zu entwerfen.",
       " die Bundesregierung zu kontrollieren.",
       " die Bundeskanzler in/den Bundeskanzler zu wählen.",
-      " das Bundeskabinett zu bilden.           Seite 25  von 190"
+      " das Bundeskabinett zu bilden."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "das Bundeskabinett zu bilden."
   },
   {
     "question": "Wer schrieb den Text zur deutschen Nationalhymne?",
@@ -638,7 +649,17 @@
       " Johann Wolfgang von Goethe",
       " Heinrich Hoffmann von Fallersleben"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Heinrich Hoffmann von Fallersleben"
+  },
+  {
+    "question": "Welche Städte haben die größten jüdischen Gemeinden in Deutschland",
+    "answers": [
+      " Berlin und München",
+      " Hamburg und Essen",
+      " Nurnberg und Stuttgart",
+      " Worms und Speyer"
+    ],
+    "correct_answer": "Berlin und München"
   },
   {
     "question": "Was ist in Deutschland vor allem eine Aufgabe der Bundesländer?",
@@ -648,7 +669,7 @@
       " Wirtschaftspolitik",
       " Schulpolitik"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Schulpolitik"
   },
   {
     "question": "Warum kontrolliert der Staat in Deutschland das Schulwesen?",
@@ -656,9 +677,9 @@
       " weil es in Deutschland nur staatliche Schulen gibt",
       " weil alle Schülerinnen und Schüler einen Schulabschluss haben müssen",
       " weil es in den Bundesländern verschiedene Schulen gibt",
-      " weil es nach dem Grundgesetz seine Aufgabe ist           Seite 26  von 190"
+      " weil es nach dem Grundgesetz seine Aufgabe ist"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "weil es nach dem Grundgesetz seine Aufgabe ist"
   },
   {
     "question": "Die Bundesrepublik Deutschland hat einen dreistufigen Verwaltungsaufbau. Wie heißt die",
@@ -667,41 +688,39 @@
       " Stadträte",
       " Landräte",
       " Gemeinden",
-      " Bezirksämter           Seite 27  von 190"
+      " Bezirksämter"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Gemeinden"
   },
   {
-    "question": "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die",
+    "question": "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben der deutschen Bundespräsidentin/des deutschen Bundespräsidenten?",
     "answers": [
-      "Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben der deutschen Bundespräsident in/des deutschen Bundespräsident en?    © Bundesregierung/Engelbert R eineke",
       " Sie/Er führt die Regierungsgeschäfte.",
       " Sie/Er kontrolliert die Regierungspartei.",
       " Sie/Er  wählt die Minister innen/Minister aus.",
-      " Sie/Er schlägt die Kanzlerin/den Kanzler zur Wahl vor.            Seite 28  von 190"
+      " Sie/Er schlägt die Kanzlerin/den Kanzler zur Wahl vor."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Sie/Er schlägt die Kanzlerin/den Kanzler zur Wahl vor."
   },
   {
-    "question": "Wo hält sich d ie deutsche Bundeskanzler in/der deutsche Bundeskanzler am häufigsten auf?",
+    "question": "Wo hält sich die deutsche Bundeskanzler in/der deutsche Bundeskanzler am häufigsten auf? Am häufigsten ist sie/er …",
     "answers": [
-      "Am häufigsten ist  sie/er …",
       " in Bonn, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
       " auf Schloss Meseberg, dem Gästehaus der Bundesregierung, um Staatsgäste  zu empfangen.",
       " auf Schloss Bellevue, dem Amtssitz d er Bundespräsident in/des  Bundespräsident en, um Staatsgäste zu empfangen.",
       " in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden."
   },
   {
-    "question": "Wie heißt d ie jetzige Bundeskanzlerin/der jetzige Bundeskanzler  von Deutschland?",
+    "question": "Wie heißt die jetzige Bundeskanzlerin/der jetzige Bundeskanzler von Deutschland?",
     "answers": [
       " Gerhard Schröder",
       " Angela Merkel",
       " Franziska Giffey",
       " Olaf Scholz"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Olaf Scholz"
   },
   {
     "question": "Die beiden größten Fraktionen im Deutschen Bundestag heißen zurzeit …",
@@ -709,19 +728,19 @@
       " CDU/CSU und SPD.",
       " Die Linke und Bündnis 90/Die Grünen.",
       " FDP und SPD.",
-      " Die Linke und FDP.           Seite 29  von 190"
+      " Die Linke und FDP."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "CDU/CSU und SPD."
   },
   {
-    "question": "Wie heißt das Parlament für ganz  Deutschland?",
+    "question": "Wie heißt das Parlament für ganz Deutschland?",
     "answers": [
       " Bundesversammlung",
       " Volkskammer",
       " Bundestag",
       " Bundesgerichtshof"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Bundestag"
   },
   {
     "question": "Wie heißt Deutschlands heutiges Staatsoberhaupt?",
@@ -731,7 +750,7 @@
       " Bodo Ramelow",
       " Joachim Gauck"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Frank -Walter Steinmeier"
   },
   {
     "question": "Was bedeutet die Abkürzung CDU in Deutschland?",
@@ -739,9 +758,9 @@
       " Christliche Deutsche Union",
       " Club Deutscher Unternehmer",
       " Christlicher Deutscher Umweltschutz",
-      " Christlich Demokratische Union           Seite 30  von 190"
+      " Christlich Demokratische Union"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Christlich Demokratische Union"
   },
   {
     "question": "Was ist die Bundeswehr?",
@@ -751,7 +770,7 @@
       " eine deutsche Bürgerinitiative",
       " die deutsche Armee"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die deutsche Armee"
   },
   {
     "question": "Was bedeutet die Abkürzung SPD?",
@@ -761,7 +780,7 @@
       " Sozialdemokratische Partei Deutschlands",
       " Sozialgerechte Partei Deutschlands"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Sozialdemokratische Partei Deutschlands"
   },
   {
     "question": "Was bedeutet die Abkürzung FDP in Deutschland?",
@@ -769,9 +788,9 @@
       " Friedliche Demonstrative Partei",
       " Freie Deutschland Partei",
       " Führende Demokratische Partei",
-      " Freie Demokratische Partei           Seite 31  von 190"
+      " Freie Demokratische Partei"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Freie Demokratische Partei"
   },
   {
     "question": "Welches Gericht in Deutschland ist zuständig für die Auslegung des Grundgesetzes?",
@@ -781,7 +800,7 @@
       " Bundesverfassungsgericht",
       " Verwaltungsgericht"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Bundesverfassungsgericht"
   },
   {
     "question": "Wer wählt die Bundeskanzlerin/den Bundeskanzler  in Deutschland?",
@@ -791,7 +810,7 @@
       " das Volk",
       " der Bundestag"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "der Bundestag"
   },
   {
     "question": "Wer leitet das deutsche Bundeskabinett?",
@@ -799,9 +818,9 @@
       " die Bundestagspräsident in/der Bundestagspräsident",
       " die Bundespräsident in/der Bundespräsident",
       " die Bundesratspräsident in/der Bundesratspräsident",
-      " die Bundeskanzler in/der Bundeskanzler           Seite 32  von 190"
+      " die Bundeskanzler in/der Bundeskanzler"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die Bundeskanzler in/der Bundeskanzler"
   },
   {
     "question": "Wer wählt die deutsche Bundeskanzlerin/den deutschen Bundeskanzler?",
@@ -811,18 +830,17 @@
       " der Bundestag",
       " die Bundesregierung"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "der Bundestag"
   },
   {
-    "question": "Welche Hauptaufgabe hat die deutsche Bundespräsidentin/der deutsche Bundespräsident?",
+    "question": "Welche Hauptaufgabe hat die deutsche Bundespräsidentin/der deutsche Bundespräsident? Sie/Er …",
     "answers": [
-      "Sie/Er …",
       " regiert das Land.",
       " entwirft die Gesetze.",
       " repräsentiert das Land.",
       " überwacht die Einhaltung der Gesetze."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "repräsentiert das Land."
   },
   {
     "question": "Wer bildet den deutschen Bundesrat?",
@@ -830,19 +848,19 @@
       " die Abgeordneten des Bundestages",
       " die Minister innen und Minister der Bundesregierung",
       " die Regierungsvertreter der Bundesländer",
-      " die Parteimitglieder           Seite 33  von 190"
+      " die Parteimitglieder"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die Regierungsvertreter der Bundesländer"
   },
   {
-    "question": "Wer wählt in Deutschland die  Bundespräsident in/d en Bundespräsident en?",
+    "question": "Wer wählt in Deutschland die Bundespräsidentin/den Bundespräsidenten?",
     "answers": [
-      " die Bu ndesversammlung",
+      " die Bundesversammlung",
       " der Bundesrat",
       " das Bundesparlament",
       " das Bundesverfassungsgericht"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die Bundesversammlung"
   },
   {
     "question": "Wer ist das Staatsoberhaupt der Bundesrepublik Deutschland?",
@@ -852,7 +870,7 @@
       " die Bundesratspräsident in/der Bundesratspräsident",
       " die Bundestagspräsident in/der Bundestagspräsident"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die Bundespräsident in/der Bundespräsident"
   },
   {
     "question": "Die parlamentarische Opposition im Deutschen Bundestag …",
@@ -860,20 +878,14 @@
       " kontrolliert die Regierung.",
       " entscheidet, wer Bundesminister in/Bundesminister wird.",
       " bestimmt, wer im Bundesrat sitzt.",
-      " schlägt die Regierungschef innen/Regierungsche fs der Länder vor.           Seite 34  von 190"
+      " schlägt die Regierungschef innen/Regierungsche fs der Länder vor."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "kontrolliert die Regierung."
   },
   {
-    "question": "Wie nennt man in Deutschland die Vereinigung von Abgeordneten einer Partei im",
-    "answers": [
-      "Parlament?",
-      " Verband",
-      " Ältestenrat",
-      " Fraktion",
-      " Opposition"
-    ],
-    "correct_answer": "PLACEHOLDER"
+    "question": "Wie nennt man in Deutschland die Vereinigung von Abgeordneten einer Partei im Parlament?",
+    "answers": [" Verband", " Ältestenrat", " Fraktion", " Opposition"],
+    "correct_answer": "Fraktion"
   },
   {
     "question": "Die deutschen Bundesländer wirken an der Gesetzgebung des Bundes mit durch …",
@@ -883,21 +895,27 @@
       " den Bundestag.",
       " die Bundesregierung."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "den Bundesrat."
   },
   {
     "question": "In Deutschland kann ein Regierungswechsel in einem Bundesland Auswirkungen auf die Bundespolitik haben. Das Regieren wird …",
     "answers": [
-      " schw ieriger, wenn sich dadurch die Mehrheit im Bundestag ändert.",
+      " schwieriger, wenn sich dadurch die Mehrheit im Bundestag ändert.",
       " leichter, wenn dadurch neue Parteien in den Bundesrat kommen.",
       " schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird.",
-      " leichter, wenn es sich um ein reiches Bundesland handelt.           Seite 35  von 190   Aufga be 92   Was bedeutet die Abkürzung CSU in Deutschland?",
-      " Christlich Sichere Union",
-      " Christlich Süddeutsche Union",
-      " Christlich Sozialer Unternehmerverband",
-      " Christlich Soziale Union"
+      " leichter, wenn es sich um ein reiches Bundesland handelt."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird."
+  },
+  {
+    "question": "Was bedeutet die Abkürzung CSU in Deutschland",
+    "answers": [
+      " Christlich Sichere Union",
+      " Christliche Süddeutsche Union",
+      " Christlich Sozialer Unternehmeverband",
+      " Christlich Sozial Union"
+    ],
+    "correct_answer": "Christlich Sozial Union"
   },
   {
     "question": "Je mehr \"Zweitstimmen\" eine Partei bei einer Bundestagswahl bekommt, desto  …",
@@ -907,18 +925,12 @@
       " größer ist das Risiko, eine Koalition bilden zu müssen.",
       " mehr Sitze erhält die Partei im Parlament."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "mehr Sitze erhält die Partei im Parlament."
   },
   {
-    "question": "Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag",
-    "answers": [
-      "teilnehmen?",
-      " 16",
-      " 18",
-      " 21",
-      " 23          Seite 36  von 190"
-    ],
-    "correct_answer": "PLACEHOLDER"
+    "question": "Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?",
+    "answers": [" 16", " 18", " 21", " 23"],
+    "correct_answer": "18"
   },
   {
     "question": "Was gilt für die meisten Kinder in Deutschland?",
@@ -928,18 +940,27 @@
       " Schweigepflicht",
       " Religionspflicht"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Schulpflicht"
   },
   {
-    "question": "Was muss jede deutsche Staatsbürger in/jede r deutsche Staatsbürger ab dem 16. Lebensjahr",
+    "question": "Was muss jede deutsche Staatsbürger in/jeder deutsche Staatsbürger ab dem 16. Lebensjahr besitzen",
     "answers": [
-      "besitzen?",
       " einen Reisepass",
       " einen Personalausweis",
       " einen Sozialversicherungsausweis",
       " einen Führerschein"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "einen Personalausweis"
+  },
+  {
+    "question": "Wie kann jemand, der den Holocaust leugnet, bestraft werden",
+    "answers": [
+      " Kürzung sozialer Leistungen",
+      " bis zu 100 Sozialstunden",
+      " gar nicht, Holocaustleugnung ist erlaubt",
+      " mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe"
+    ],
+    "correct_answer": "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe"
   },
   {
     "question": "Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?",
@@ -947,39 +968,39 @@
       " Sozialversicherung",
       " Sozialhilfe",
       " Kindergeld",
-      " Wohngeld           Seite 37  von 190"
+      " Wohngeld"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Sozialversicherung"
   },
   {
     "question": "Wenn Abgeordnete im Deutschen Bundestag ihre Fraktion wechseln, …",
     "answers": [
       " dürfen sie nicht mehr an den Sitzungen des Parlaments teilnehmen.",
       " kann die Regierung ihre Mehrheit verlieren.",
-      " muss d ie Bundespräsident in/der Bundespräsident zuvor ihr/ sein  Einvers tändnis geben.",
+      " muss die Bundespräsident in/der Bundespräsident zuvor ihr/ sein  Einverständnis geben.",
       " dürfen die Wähler innen /Wähler dieser Abgeordneten noch einmal wählen."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "kann die Regierung ihre Mehrheit verlieren."
   },
   {
     "question": "Wer bezahlt in Deutschland die Sozialversicherungen?",
     "answers": [
-      " Arbeitgeber innen/Arbeitgeber und Arbeitnehmer innen/Arbeitnehmer",
-      " nur Arbeitnehmer innen/Arbeitnehmer",
+      " Arbeitgeberinnen/Arbeitgeber und Arbeitnehmerinnen/Arbeitnehmer",
+      " nur Arbeitnehmerinnen/Arbeitnehmer",
       " alle Staatsangehörigen",
-      " nur Arbeitgeber innen/Arbeitgeber"
+      " nur Arbeitgeberinnen/Arbeitgeber"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Arbeitgeberinnen/Arbeitgeber und Arbeitnehmerinnen/Arbeitnehmer"
   },
   {
-    "question": "Was gehört nicht  zur gesetzlichen Sozialversicherung?",
+    "question": "Was gehört nicht zur gesetzlichen Sozialversicherung?",
     "answers": [
       " die Lebensversicherung",
       " die gesetzliche Rentenversicherung",
       " die Arbeitslosenversicherung",
-      " die Pflegeversicherung           Seite 38  von 190"
+      " die Pflegeversicherung"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die Lebensversicherung"
   },
   {
     "question": "Gewerkschaften sind Interessenverbände der …",
@@ -987,20 +1008,19 @@
       " Jugendlichen.",
       " Arbeitnehmerinnen und Arbeitnehmer.",
       " Rentnerinnen und Rentner.",
-      " Arbeitgeber innen und Arbeitgeber."
+      " Arbeitgeberinnen und Arbeitgeber."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Arbeitnehmerinnen und Arbeitnehmer."
   },
   {
-    "question": "Womit kann man in der Bundesrepublik Deutschland geehrt werden, wenn man auf",
+    "question": "Womit kann man in der Bundesrepublik Deutschland geehrt werden, wenn man auf politischem, wirtschaftlichem, kulturellem, geistigem oder sozialem Gebiet eine besondere Leistung erbracht hat? Mit dem …",
     "answers": [
-      "politischem, wirtschaftlichem, kulturellem, geistigem oder sozialem Gebiet eine besondere  Leistung erbracht hat? Mit dem …",
       " Bundesverdienstkreuz",
       " Bundesadler",
       " Vaterländischen Verdienstorden",
       " Ehrentitel \"Held der Deutschen Demokratischen Republik\""
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Bundesverdienstkreuz"
   },
   {
     "question": "Was wird in Deutschland als \"Ampelkoalition\" bezeichnet? Die Zusammenarbeit …",
@@ -1008,56 +1028,54 @@
       " der Bundestagsfraktionen von CDU und CSU",
       " von SPD, FDP und Bündnis 90/Die Grünen in einer Regierung",
       " von CSU, Die LINKE und Bündnis 90/Die Grünen in einer Regierung",
-      " der Bundestagsfraktionen von CDU und SPD           Seite 39  von 190"
+      " der Bundestagsfraktionen von CDU und SPD"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "von SPD, FDP und Bündnis 90/Die Grünen in einer Regierung"
   },
   {
-    "question": "Eine Frau in Deutschland verliert ihre Arbeit. Was darf nicht  der Grund für diese Entlassung",
+    "question": "Eine Frau in Deutschland verliert ihre Arbeit. Was darf nicht  der Grund für diese Entlassung sein?",
     "answers": [
-      "sein?",
       " Die Frau ist lange krank und arbeitsunfähig.",
       " Die Frau kam oft zu spät zur Arbeit.",
       " Die Frau erledigt private Sachen während der Arbeitszeit.",
       " Die Frau bekommt ein Kind und ihr Chef weiß das."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Die Frau bekommt ein Kind und ihr Chef weiß das."
   },
   {
-    "question": "Was ist eine Aufgabe von Wahlhelfer innen/Wahlhelfer n in Deutschland?",
+    "question": "Was ist eine Aufgabe von Wahlhelferinnen/Wahlhelfern in Deutschland?",
     "answers": [
       " Sie helfen alten Menschen bei der Stimmabgabe in der Wahlkabine.",
       " Sie schreiben die Wahlbenachrichtigungen vor der  Wahl.",
       " Sie geben Zwischenergebnisse an die Medien weiter.",
       " Sie zählen die Stimmen nach dem Ende der Wahl."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Sie zählen die Stimmen nach dem Ende der Wahl."
   },
   {
-    "question": "In Deutschland helfen ehrenamtliche Wahlhelfer innen und Wahlhelfer bei den Wahlen. Was",
+    "question": "In Deutschland helfen ehrenamtliche Wahlhelferinnen und Wahlhelfer bei den Wahlen. Was ist eine Aufgabe von Wahlhelferinnen/Wahlhelfern?",
     "answers": [
-      "ist eine Aufgabe von Wahlhelfer innen /Wahlhelfer n?",
       " Sie helfen Kindern und alten Menschen beim Wählen.",
       " Sie schreiben Karten und Briefe mit der Angabe des Wahllokals.",
       " Sie geben Zwischenergebnisse an Journalisten weiter.",
-      " Sie zählen die Stimmen nach dem Ende der Wahl.           Seite 40  von 190"
+      " Sie zählen die Stimmen nach dem Ende der Wahl."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Sie zählen die Stimmen nach dem Ende der Wahl."
   },
   {
     "question": "Für wie viele Jahre wird der Bundestag in Deutschland gewählt?",
     "answers": [" 2 Jahre", " 4 Jahre", " 6 Jahre", " 8 Jahre"],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "4 Jahre"
   },
   {
-    "question": "Bei einer Bundestagswahl in Deutschland darf jede/ jeder wählen, die/ der …",
+    "question": "Bei einer Bundestagswahl in Deutschland darf jede/jeder wählen, die/ der …",
     "answers": [
       " in der Bundesrepublik Deutschland wohnt und wählen möchte.",
-      " Bürgerin /Bürger der Bundesrepublik Deutschland  ist und mindestens 18 Jahre  alt ist.",
+      " Bürgerin/Bürger der Bundesrepublik Deutschland ist und mindestens 18 Jahre alt ist.",
       " seit mindestens 3 Jahren in der Bundesrepublik Deutschland lebt.",
-      " Bürgerin /Bürger der Bundesrepublik Deutschland ist und mindestens 21 Jahre  alt ist."
+      " Bürgerin/Bürger der Bundesrepublik Deutschland ist und mindestens 21 Jahre alt ist."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Bürgerin/Bürger der Bundesrepublik Deutschland ist und mindestens 18 Jahre alt ist."
   },
   {
     "question": "Wie oft gibt es normalerweise Bundestagswahlen in Deutschland?",
@@ -1065,24 +1083,34 @@
       " alle drei Jahre",
       " alle vier Jahre",
       " alle fünf Jahre",
-      " alle sechs Jahre           Seite 41  von 190"
+      " alle sechs Jahre"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "alle vier Jahre"
   },
   {
     "question": "Für wie viele Jahre wird der Bundestag in Deutschland gewählt?",
     "answers": [" 2 Jahre", " 3 Jahre", " 4 Jahre", " 5 Jahre"],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "4 Jahre"
+  },
+  {
+    "question": "Welche Handlung mit Bezug auf den Staat Israel ist in Deutschland verboten",
+    "answers": [
+      " die Politik Israels öffentlich kritisieren",
+      " das Aufhängen einer israelichen Flagge auf dem Privatgrundstück",
+      " eine Diskussion über die Politik Israels",
+      " der öffentliche Aufruf zur Vernichtung Israels"
+    ],
+    "correct_answer": "der öffentliche Aufruf zur Vernichtung Israels"
   },
   {
     "question": "In Deutschland darf man wählen. Was bedeutet das?",
     "answers": [
-      " Alle deutschen Staatsangehörigen dürfen wählen, wenn sie das Mindestalter  erreicht haben.",
+      " Alle deutschen Staatsangehörigen dürfen wählen, wenn sie das Mindestalter erreicht haben.",
       " Nur verheiratete Personen dürfen wählen.",
       " Nur Personen mit einem festen Arbeitsplatz dürfen wählen.",
-      " Alle Einwohner innen und Einwohner in Deutschland müssen wählen."
+      " Alle Einwohnerinnen und Einwohnerin Deutschland müssen wählen."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Alle deutschen Staatsangehörigen dürfen wählen, wenn sie das Mindestalter erreicht haben."
   },
   {
     "question": "Die Wahlen in Deutschland sind …",
@@ -1090,9 +1118,9 @@
       " speziell.",
       " geheim.",
       " berufsbezogen.",
-      " geschlechtsabhängig.           Seite 42  von 190"
+      " geschlechtsabhängig."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "geheim."
   },
   {
     "question": "Wahlen in Deutschland gewinnt die Partei, die …",
@@ -1102,7 +1130,7 @@
       " die meisten Stimmen bei den Arbeiter innen/Arbeiter n bekommen hat.",
       " die meisten Erststimmen für ihre Kanzlerkandidat in/ihre n Kanzlerkandidaten  erhalten hat."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die meisten Stimmen bekommt."
   },
   {
     "question": "An demokratischen Wahlen in Deutschland teilzunehmen ist …",
@@ -1112,7 +1140,7 @@
       " ein Zwang.",
       " eine Last."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "ein Recht."
   },
   {
     "question": "Was bedeutet \"aktives Wahlrecht\" in Deutschland?",
@@ -1120,9 +1148,9 @@
       " Man kann gewählt werden.",
       " Man muss wählen gehen.",
       " Man kann wählen.",
-      " Man muss zur Auszählung der Stimmen gehen.           Seite 43  von 190"
+      " Man muss zur Auszählung der Stimmen gehen."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Man kann wählen."
   },
   {
     "question": "Wenn Sie bei einer Bundestagswahl in Deutschland wählen dürfen, heißt das …",
@@ -1132,7 +1160,7 @@
       " aktiver Wahlkampf.",
       " aktives Wahlrecht."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "aktives Wahlrecht."
   },
   {
     "question": "Wie viel Prozent der Zweitstimmen müssen Parteien mindestens bekommen, um in den",
@@ -1143,7 +1171,17 @@
       " 5%",
       " 6%"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "5%"
+  },
+  {
+    "question": "Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?",
+    "answers": [
+      "nur Deutsche",
+      "nur Israelis",
+      "nur Reliogöse Menschen",
+      "alle Menschen"
+    ],
+    "correct_answer": "alle Menschen"
   },
   {
     "question": "Was regelt das Wahlrecht in Deutschland?",
@@ -1151,19 +1189,19 @@
       " Wer wählen darf, muss wählen.",
       " Alle die wollen, können wählen.",
       " Wer nicht wählt, verliert das Recht zu wählen.",
-      " Wer wählen darf, kann wählen.           Seite 44  von 190"
+      " Wer wählen darf, kann wählen."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Wer wählen darf, kann wählen."
   },
   {
     "question": "Wahlen in Deutschland sind frei. Was bedeutet das?",
     "answers": [
-      " Alle verurteilten Straftäterinnen/St raftäter dürfen nicht wählen.",
-      " Wenn ich wählen gehen möchte, muss meine Arbeitgeber in/mein Arbeitgeber  mir frei geben.",
-      " Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen  sie wählen möchte.",
-      " Ich kann frei entscheiden, wo ich wählen gehen mö chte."
+      " Alle verurteilten Straftäterinnen/Straftäter dürfen nicht wählen.",
+      " Wenn ich wählen gehen möchte, muss meine Arbeitgeber in/mein Arbeitgeber mir frei geben.",
+      " Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
+      " Ich kann frei entscheiden, wo ich wählen gehen möchte."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte."
   },
   {
     "question": "Das Wahlsystem in Deutschland ist ein …",
@@ -1173,18 +1211,17 @@
       " Mehrheits - und Verhältniswahlrecht.",
       " allgemeines Männerwahlrecht."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Mehrheits - und Verhältniswahlrecht"
   },
   {
-    "question": "Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an",
+    "question": "Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an Wählerstimmen haben. Das heißt …",
     "answers": [
-      "Wählerstimmen haben. Das heißt …",
       " 5%-Hürde.",
       " Zulassungsgrenze.",
       " Basiswert.",
-      " Richtlinie.           Seite 45  von 190"
+      " Richtlinie."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "5%-Hürde."
   },
   {
     "question": "Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind …",
@@ -1194,7 +1231,7 @@
       " geschlossen, gleich, sicher.",
       " sicher, offen, freiwillig."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "frei, gleich, geheim."
   },
   {
     "question": "Was ist in Deutschland die \"5% -Hürde\"?",
@@ -1204,27 +1241,27 @@
       " Mindestanteil an Wählerstimmen, um ins Parlament zu kommen",
       " Anwesenheitskontrolle im Bundesrat für Abstimmungen"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Mindestanteil an Wählerstimmen, um ins Parlament zu kommen"
   },
   {
     "question": "Die Bundestagswahl in Deutschland ist die Wahl …",
     "answers": [
-      " der Bundeskanzler in/des  Bundeskanzler s.",
+      " der Bundeskanzlerin/des Bundeskanzlers.",
       " der Parlamente der Länder.",
       " des Parlaments für Deutschland.",
-      " der Bundespräsident in/des Bundespräsident en.          Seite 46  von 190"
+      " der Bundespräsidentin/des Bundespräsidenten."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "des Parlaments für Deutschland."
   },
   {
     "question": "In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …",
     "answers": [
       " die Bürger innen und Bürger zu zwingen, ihre Stimme abzugeben.",
-      " nach dem Willen der Wählermehrheit den Wechsel der Regierung zu  ermöglichen.",
+      " nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen.",
       " im Land bestehende Gesetze beizubehal ten.",
       " den Armen mehr Macht zu geben."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen."
   },
   {
     "question": "Was bekommen wahlberechtigte Bürger innen und Bürger in Deutschland vor einer Wahl?",
@@ -1234,59 +1271,52 @@
       " eine Benachrichtigung von der Bundesversammlung",
       " eine Benachrichtigung vom Pfarramt"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "eine Wahlbenachrichtigung von der Gemeinde"
   },
   {
-    "question": "Warum gibt es die 5% -Hürde im Wahlgesetz der Bundesrepublik Deutschland? Es gibt sie,",
+    "question": "Warum gibt es die 5% -Hürde im Wahlgesetz der Bundesrepublik Deutschland? Es gibt sie, weil …",
     "answers": [
-      "weil …",
       " die Programme von vielen kleinen Parteien viele Gemeinsamkeiten haben.",
       " die Bürger innen und Bürger bei vielen kleinen Parteien die Orientierung  verlieren können.",
       " viele kleine Parteien die Regierungsbildung erschweren.",
       " die kleinen Parteien nicht so viel Geld haben, um die Politiker innen und  Politiker zu bezahlen.           Seite 47  von 190"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "viele kleine Parteien die Regierungsbildung erschweren."
   },
   {
-    "question": "Parlamentsmitglieder, die von den Bürger innen  und Bürger n gewählt werden, nennt man …",
+    "question": "Parlamentsmitglieder, die von den Bürgerinnen und Bürgern gewählt werden, nennt man …",
     "answers": [
       " Abgeordnete.",
       " Kanzler innen/Kanzler.",
       " Botschafter innen/Botschafter.",
       " Ministerpräsidentinnen/Ministerpräsidenten."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Abgeordnete."
   },
   {
     "question": "Vom Volk gewählt wird in Deutschland …",
     "answers": [
       " die Bundeskanzlerin/der Bundeskanzler .",
-      " die Ministerpräsidentin/der Ministerpräsident  eines Bundeslandes.",
+      " die Ministerpräsidentin/der Ministerpräsident eines Bundeslandes.",
       " der Bundestag.",
-      " die Bundespräsidentin/der Bundespräsident .          Seite 48  von 190"
+      " die Bundespräsidentin/der Bundespräsident."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "der Bundestag."
   },
   {
     "question": "Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?",
-    "answers": [
-      "In Anlehnung an Bundeswa hlordnung (BWO), Anlage 26",
-      " 1",
-      " 2",
-      " 3",
-      " 4           Seite 49  von 190"
-    ],
-    "correct_answer": "PLACEHOLDER"
+    "answers": [" 1", " 2", " 3", " 4"],
+    "correct_answer": "1"
   },
   {
-    "question": "In Deutschland ist ein e Bürgermeisterin /ein Bürgermeister …",
+    "question": "In Deutschland ist eine Bürgermeisterin /ein Bürgermeister …",
     "answers": [
-      " die Leiterin/der Leiter  einer Schule.",
-      " die Chefin /der Chef  einer Bank.",
+      " die Leiterin/der Leiter einer Schule.",
+      " die Chefin /der Chef einer Bank.",
       " das Oberhaupt einer Gemeinde.",
-      " die/der  Vorsitzende einer Partei."
+      " die/der Vorsitzende einer Partei."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "das Oberhaupt einer Gemeinde."
   },
   {
     "question": "Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?",
@@ -1296,7 +1326,7 @@
       " Sie arbeiten in der Bundesregierung.",
       " Sie arbeiten in einem Krankenhaus und verdienen dabei Geld."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden."
   },
   {
     "question": "Was ist bei Bundestags- und Landtagswahlen in Deutschland erlaubt?",
@@ -1304,20 +1334,19 @@
       " Der Ehemann wählt für seine Frau mit.",
       " Man kann durch Briefwahl seine Stimme abgeben.",
       " Man kann am Wahltag telefonisch seine Stimme abgeben.",
-      " Kind er ab dem Alter von 14 Jahren dürfen wählen.           Seite 50  von 190"
+      " Kind er ab dem Alter von 14 Jahren dürfen wählen."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Man kann durch Briefwahl seine Stimme abgeben."
   },
   {
-    "question": "Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie",
+    "question": "Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie machen, um die Buslinie zu erhalten?",
     "answers": [
-      "machen, um die Buslinie zu erhalten?",
       " Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative.",
       " Ich werde Mitglied in einem Sportverein und trainiere Radfahren.",
-      " Ich wende mich an das Finanzamt, weil ich als Steuerzahler in/Steuerzahler  ein Recht auf die Buslinie habe.",
+      " Ich wende mich an das Finanzamt, weil ich als Steuerzahlerin/Steuerzahler  ein Recht auf die Buslinie habe.",
       " Ich schreibe einen Brief an das Forstamt der Gemeinde."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative."
   },
   {
     "question": "Wen vertreten die Gewerkschaften in Deutschland?",
@@ -1327,17 +1356,17 @@
       " Selbstständige",
       " Arbeitnehmerinnen und Arbeitnehmer"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Arbeitnehmerinnen und Arbeitnehmer"
   },
   {
     "question": "Sie gehen in Deutschland zum Arbeitsgericht bei …",
     "answers": [
       " falscher Nebenkostenabrechnung .",
-      " ungerechtfertigter Kündigung durch Ihre Chef in/Ihre n Chef.",
+      " ungerechtfertigter Kündigung durch Ihre Chefin/Ihren Chef.",
       " Problemen mit den Nachbar innen/Nachbarn.",
-      " Schwierigkeiten nach einem Verkehrsunfall.           Seite 51  von 190"
+      " Schwierigkeiten nach einem Verkehrsunfall."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "ungerechtfertigter Kündigung durch Ihre Chefin/Ihren Chef."
   },
   {
     "question": "Welches Gericht ist in Deutschland bei Konflikten in der Arbeitswelt zuständig?",
@@ -1347,18 +1376,17 @@
       " das Arbeitsgericht",
       " das Amtsgericht"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "das Arbeitsgericht"
   },
   {
-    "question": "Was kann ich in Deutschland machen, wenn mir meine Arbeitgeber in/mein Arbeitgeber zu",
+    "question": "Was kann ich in Deutschland machen, wenn mir meine Arbeitgeberin/mein Arbeitgeber zu Unrecht gekündigt hat?",
     "answers": [
-      "Unrecht gekündigt hat?",
-      " weiterarbeiten und freundlich zur Chef in/zum Chef sein",
+      " weiterarbeiten und freundlich zur Chefin/zum Chef sein",
       " ein Mahnverfahren gegen die Arbeitgeberin /den Arbeitgeber führen",
       " Kündigungsschutzklage erheben",
-      " die Arbeitgeber in/den  Arbeitgeber bei der Polizei anzeigen"
+      " die Arbeitgeberin/den Arbeitgeber bei der Polizei anzeigen"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Kündigungsschutzklage erheben"
   },
   {
     "question": "Wann kommt es in Deutschland zu einem Prozess vor Gericht? Wenn jemand …",
@@ -1366,19 +1394,19 @@
       " zu einer anderen Religion übertritt.",
       " eine Straftat begangen hat und angeklagt wird.",
       " eine andere Meinung als die der Regierung vertritt.",
-      " sein Auto falsch geparkt hat und es abgeschleppt wird.           Seite 52  von 190"
+      " sein Auto falsch geparkt hat und es abgeschleppt wird."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "eine Straftat begangen hat und angeklagt wird."
   },
   {
-    "question": "Was macht ein e Schöffin /ein Schöffe in Deutschland? Sie/Er …",
+    "question": "Was macht eine Schöffin /ein Schöffe in Deutschland? Sie/Er …",
     "answers": [
-      " entscheidet mit Richter innen/Richter n über Schuld und Strafe.",
-      " gibt Bürger innen/Bürgern rechtlichen Rat.",
+      " entscheidet mit Richterinnen/Richtern über Schuld und Strafe.",
+      " gibt Bürgerinnen/Bürgern rechtlichen Rat.",
       " stellt Urkunden aus.",
-      " verteidigt die Angeklagte /den  Angeklagte n."
+      " verteidigt die Angeklagte /den Angeklagten."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "entscheidet mit Richterinnen/Richtern über Schuld und Strafe."
   },
   {
     "question": "Wer berät in Deutschland Personen bei Rechtsfragen und vertritt sie vor Gericht?",
@@ -1388,18 +1416,17 @@
       " eine Schöffin/ein Schöffe",
       " eine Staatsanwältin/ein Staatsanwalt"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "eine Rechtsanwältin/ein Rechtsanwalt"
   },
   {
-    "question": "Was ist die Hauptaufgabe einer Richter in/eines Richter s in Deutschland? Ein e Richter in/ein",
+    "question": "Was ist die Hauptaufgabe einer Richterin/eines Richters in Deutschland? Eine Richterin/ein Richter …",
     "answers": [
-      "Richter …",
-      " vertrit t Bürger innen und Bürger vor einem Gericht.",
+      " vertritt Bürger innen und Bürger vor einem Gericht.",
       " arbeitet an einem Gericht und spricht Urteile.",
       " ändert Gesetze.",
-      " betreut Jugendliche vor Gericht.           Seite 53  von 190"
+      " betreut Jugendliche vor Gericht."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "arbeitet an einem Gericht und spricht Urteile."
   },
   {
     "question": "Eine Richter in/ein Richter in Deutschland gehört zur …",
@@ -1409,43 +1436,37 @@
       " Operative.",
       " Legislative."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Judikative."
   },
   {
-    "question": "Eine Richter in/ein Richter gehört in Deutschland zur …",
+    "question": "Eine Richterin/ein Richter gehört in Deutschland zur …",
     "answers": [
       " vollziehenden Gewalt.",
       " rechtsprechenden Gewalt.",
       " planenden Gewalt.",
       " gesetzgebenden Gewalt."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "rechtsprechenden Gewalt"
   },
   {
-    "question": "In Deutschland wird die Staatsgewalt geteilt. Für welche Staatsgewalt arbeitet ein e",
-    "answers": [
-      "Richter in/ein Richter? Für die …",
-      " Judikative",
-      " Exekutive",
-      " Presse",
-      " Legislative           Seite 54  von 190"
-    ],
-    "correct_answer": "PLACEHOLDER"
+    "question": "In Deutschland wird die Staatsgewalt geteilt. Für welche Staatsgewalt arbeitet eine Richterin/ein Richter? Für die …",
+    "answers": [" Judikative", " Exekutive", " Presse", " Legislative"],
+    "correct_answer": "Judikative"
   },
   {
     "question": "Wie nennt man in Deutschland ein Verfahren vor einem Gericht?",
     "answers": [" Programm", " Prozedur", " Protokoll", " Prozess"],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Prozess"
   },
   {
-    "question": "Was ist die Arbeit einer Richter in/eines Richter s in Deutschland?",
+    "question": "Was ist die Arbeit einer Richterin/eines Richters in Deutschland?",
     "answers": [
       " Deutschland regieren",
       " Recht sprechen",
       " Pläne erstellen",
       " Gesetze erlassen"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Recht sprechen"
   },
   {
     "question": "Was ist eine Aufgabe der Polizei in Deutschland?",
@@ -1453,29 +1474,39 @@
       " das Land zu verteidigen",
       " die Bürgerinnen und Bürger abzuhören",
       " die Gesetze zu beschließen",
-      " die Einhaltung von Gesetzen zu überwachen           Seite 55  von 190"
+      " die Einhaltung von Gesetzen zu überwachen"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die Einhaltung von Gesetzen zu überwachen"
   },
   {
-    "question": "Wer kann Gerichtsschöff in/Gerichtsschöffe in Deutschland werden?",
+    "question": "Was ist ein Beispiel für antisemitisches Verhalten",
     "answers": [
-      " Alle in Deutschland geborenen Einwohner innen/Einwohner über 18 Jahre",
+      " ein jüdisches Fest besuchen",
+      " die israelische Regierung kritisieren",
+      " den Holocaust leugnen",
+      " gegen Juden Fußball spielen"
+    ],
+    "correct_answer": "den Holocaust leugnen"
+  },
+  {
+    "question": "Wer kann Gerichtsschöffin/Gerichtsschöffe in Deutschland werden?",
+    "answers": [
+      " Alle in Deutschland geborenen Einwohnerinnen/Einwohner über 18 Jahre",
       " Alle deutschen Staatsangehörigen älter als 24 und jünger als 70 Jahre",
       " Alle Personen, die seit mindestens 5 Jahren in Deutschland leben",
       " Nur Personen mit einem abgeschlossenen Jurastudium"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Alle deutschen Staatsangehörigen älter als 24 und jünger als 70 Jahre"
   },
   {
     "question": "Eine Gerichtsschöffin /ein Gerichtsschöffe in Deutschland ist …",
     "answers": [
       " die Stellvertreterin/der Stellvertreter  des Stadtoberhaupts.",
-      " eine ehrenamtliche Richterin /ein ehrenamtlicher Richter .",
+      " eine ehrenamtliche Richterin /ein ehrenamtlicher Richter.",
       " ein Mitglied eines Gemeinderats.",
       " eine Person, die Jura studiert hat."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "eine ehrenamtliche Richterin /ein ehrenamtlicher Richter."
   },
   {
     "question": "Wer baute die Mauer in Berlin?",
@@ -1483,9 +1514,9 @@
       " Großbritannien",
       " die DDR",
       " die Bundesrepublik Deutschland",
-      " die USA           Seite 56  von 190"
+      " die USA"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "die DDR"
   },
   {
     "question": "Wann waren die Nationalsozialisten mit Adolf Hitler in Deutschland an der Macht?",
@@ -1495,7 +1526,7 @@
       " 1933 bis 1945",
       " 1945 bis 1989"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "1933 bis 1945"
   },
   {
     "question": "Was war am 8. Mai 1945?",
@@ -1505,17 +1536,12 @@
       " Wahl von Konrad Adenauer zum Bundeskanzler",
       " Ende des Zweiten Weltkriegs in Europa"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Ende des Zweiten Weltkriegs in Europa"
   },
   {
     "question": "Wann war der Zweite Weltkrieg zu Ende?",
-    "answers": [
-      " 1933",
-      " 1945",
-      " 1949",
-      " 1961          Seite 57  von 190"
-    ],
-    "correct_answer": "PLACEHOLDER"
+    "answers": [" 1933", " 1945", " 1949", " 1961"],
+    "correct_answer": "1945"
   },
   {
     "question": "Wann waren die Nationalsozialisten in Deutschland an der Macht?",
@@ -1525,12 +1551,12 @@
       " 1933 bis 1945",
       " 1949 bis 1963"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "1933 bis 1945"
   },
   {
     "question": "In welchem Jahr wurde Hitler Reichskanzler?",
     "answers": [" 1923", " 1927", " 1933", " 1936"],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "1933"
   },
   {
     "question": "Die Nationalsozialisten mit Adolf Hitler errichteten 1933 in Deutschland …",
@@ -1538,9 +1564,9 @@
       " eine Diktatur.",
       " einen demokratischen Staat.",
       " eine Monarchie.",
-      " ein Fürstentum.           Seite 58  von 190"
+      " ein Fürstentum."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "eine Diktatur."
   },
   {
     "question": "Das \"Dritte Reich\" war eine …",
@@ -1550,7 +1576,7 @@
       " Monarchie.",
       " Räterepublik."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "Diktatur."
   },
   {
     "question": "Was gab es in Deutschland nicht  während der Zeit des Nationalsozialismus?",
@@ -1560,7 +1586,7 @@
       " willkürliche Verhaftungen",
       " Verfolgung von Juden"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "freie Wahlen"
   },
   {
     "question": "Welcher Krieg dauerte von 1939 bis 1945?",
@@ -1568,9 +1594,9 @@
       " der Erste Weltkrieg",
       " der Zweite Weltkrieg",
       " der Vietnamkrieg",
-      " der Golfkrieg           Seite 59  von 190"
+      " der Golfkrieg"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "der Zweite Weltkrieg"
   },
   {
     "question": "Was kennzeichnete den NS -Staat? Eine Politik …",
@@ -1580,7 +1606,7 @@
       " der allgemeinen Religionsfreiheit",
       " der Entwicklung der Demokra tie"
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "des staatlichen Rassismus"
   },
   {
     "question": "Claus Schenk Graf von Stauffenberg wurde bekannt durch …",
@@ -1590,7 +1616,7 @@
       " den Aufbau der Wehrmacht.",
       " das Attentat auf Hitler am 20. Juli 1944."
     ],
-    "correct_answer": "PLACEHOLDER"
+    "correct_answer": "das Attentat auf Hitler am 20. Juli 1944."
   },
   {
     "question": "In welchem Jahr zerstörten die Nationalsozialisten Synagogen und jüdische Geschäfte in",
