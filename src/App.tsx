@@ -1,12 +1,21 @@
 import "./App.css";
 import QuestionComponent from "./components/question";
+import questionItems from "./questions.json"; 
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
-      <QuestionComponent />
+      {questionItems.map((question, index) => (
+        <QuestionComponent
+          key={index}
+          index={index}
+          question={question.question}
+          answers={question.answers}
+          correctAnswer={question.correct_answer}
+        />
+      ))}
     </>
   );
-}
+};
 
 export default App;
