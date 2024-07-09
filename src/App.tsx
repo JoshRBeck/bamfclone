@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
-import QuestionComponent from "./components/question";
+import QuestionComponent from "./components/Question";
 import questionItems from "./questions.json";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Login from "./components/Auth/Login";
+import SignUp from "./components/Auth/SignUp";
 
 const App: React.FC = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -24,23 +28,46 @@ const App: React.FC = () => {
     setCurrentQuestionIndex(Number(event.target.value));
   };
 
+  const handleRandomQuestion = () => {
+    const randomIndex = Math.floor(Math.random() * questionItems.length);
+    setCurrentQuestionIndex(randomIndex);
+  };
+
   const currentQuestion = questionItems[currentQuestionIndex];
 
   return (
-    <>
+    <Router>
       <div>
+        <Navbar />
+
+        <Route path="/login">
+          <Login />
+        </Route>
+        <Route path="/signup">
+          <SignUp />
+        </Route>
+
         <button
           onClick={handlePrevQuestion}
           disabled={currentQuestionIndex === 0}
         >
           Previous Question
         </button>
+
         <button
           onClick={handleNextQuestion}
           disabled={currentQuestionIndex === questionItems.length - 1}
         >
           Next Question
         </button>
+
+        <button
+          onClick={handleRandomQuestion}
+          disabled={currentQuestionIndex === questionItems.length - 1}
+        >
+          Random Question
+        </button>
+
         <select onChange={handleSelectQuestion} value={currentQuestionIndex}>
           {questionItems.map((_, index) => (
             <option key={index} value={index}>
@@ -56,7 +83,7 @@ const App: React.FC = () => {
         answers={currentQuestion.answers}
         correctAnswer={currentQuestion.correct_answer}
       />
-    </>
+    </Router>
   );
 };
 

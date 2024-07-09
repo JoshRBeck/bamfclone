@@ -23,7 +23,7 @@ const QuestionComponent: React.FC<QuestionProps> = ({
 
   return (
     <>
-      <h1>Question {index + 1}</h1>
+      <h1>Aufgabe {index + 1}</h1>
       <h2>{question}</h2>
       <ul>
         {answers.map((answer, i) => (
