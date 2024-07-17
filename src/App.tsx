@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Login from "./components/Auth/Login";
 import SignUp from "./components/Auth/SignUp";
@@ -11,17 +11,11 @@ const App: React.FC = () => {
     <Router>
       <div>
         <Navbar />
-
-        <Route path="/login">
-          <Login />
-        </Route>
-        <Route path="/signup">
-          <SignUp />
-        </Route>
-
-        <Route path="/" exact>
-          <QuestionLogic />
-        </Route>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/" element={<QuestionLogic />} />
+        </Routes>
       </div>
     </Router>
   );
