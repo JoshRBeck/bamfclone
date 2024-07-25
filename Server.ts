@@ -4,16 +4,21 @@ import bcrypt from 'bcryptjs';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import mongoose, { ConnectOptions } from 'mongoose';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/quizapp';
+const JWT_SECRET = process.env.JWT_SECRET || 'your_jwt_secret';
 
 // Middleware
 app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/quizapp', {
+mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 } as ConnectOptions).then(() => {
@@ -78,7 +83,7 @@ app.post('/login', async (req: express.Request, res: Response) => {
     return res.status(400).json({ error: 'Invalid Credentials' });
   }
 
-  const token = jwt.sign({ userId: user._id }, 'secret_key', { expiresIn: '1h' });
+  const token = jwt.sign({ userId: user._id }, JWT_SECRET, { expiresIn: '1h' });
   res.json({ token });
 });
 
@@ -89,7 +94,7 @@ const authMiddleware = (req: CustomRequest, res: Response, next: NextFunction) =
   }
 
   try {
-    const verified = jwt.verify(token, 'secret_key') as JwtPayload;
+    const verified = jwt.verify(token, JWT_SECRET) as JwtPayload;
     req.user = verified;
     next();
   } catch (err) {
