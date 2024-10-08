@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-
+import { app } from "../../firebase"
 
 const SignUp: React.FC = () => {
   const [email, setEmail] = useState("");
@@ -12,17 +12,23 @@ const SignUp: React.FC = () => {
     e.preventDefault();
     setLoading(true);
 
-    const auth = getAuth(); // Initialize Firebase auth instance
+    const auth = getAuth(app); // Initialize Firebase auth instance
 
     try {
       // Create user with email and password using Firebase
-      await createUserWithEmailAndPassword( auth, email, password);
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      const user = userCredential.user;
+
+      // Optionally store user UID in local storage
+      localStorage.setItem("userId", user.uid);
+
       alert("Sign Up Successful");
+      // Redirect to another page or update UI accordingly
     } catch (err: unknown) {
       if (err instanceof Error) {
-      setError(err.message); // Handle any Firebase errors
+        setError(err.message); // Handle any Firebase errors
       } else {
-        setError("An unknown error occured.");
+        setError("An unknown error occurred.");
       }
     } finally {
       setLoading(false);

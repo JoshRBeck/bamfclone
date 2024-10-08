@@ -1,27 +1,32 @@
 import { useState } from "react";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { app } from "../../firebase";
 
 const Login: React.FC = () => {
-  const [email, setEmail] = useState<string>("");
-  const [password, setPassword] = useState<string>("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
-  const [loading, setLoading] = useState<boolean>(false);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    setError(null); // Reset error state
 
-    const auth = getAuth(); // Initialize Firebase auth instance
+    const auth = getAuth(app); // Initialize Firebase auth instance
 
     try {
       // Sign in with email and password using Firebase
-      await signInWithEmailAndPassword(auth, email, password);
+      const userCredential = await signInWithEmailAndPassword(auth, email, password);
+      const user = userCredential.user;
+
+      // Optionally store user UID in local storage
+      localStorage.setItem("userId", user.uid);
+
       alert("Login Successful");
+      // Redirect to another page or update UI accordingly
     } catch (err: unknown) {
-      // Handle errors with type assertion
       if (err instanceof Error) {
-        setError(err.message); // Set the error message from the caught Error
+        setError(err.message); // Handle any Firebase errors
       } else {
         setError("An unknown error occurred.");
       }

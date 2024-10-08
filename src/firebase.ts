@@ -2,23 +2,25 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics, logEvent } from "firebase/analytics";
 
-const apiKey = import.meta.env.apiKey
-const authDomain = import.meta.env.authDomain
-const projectId = import.meta.env.projectId
-const storageBucket = import.meta.env.storageBucket
-const messagingSenderId = import.meta.env.messagingSenderId
-const appId = import.meta.env.appId
-const measurementId = import.meta.env.measurementId
-
+console.log('Firebase config:', {
+    apiKey: import.meta.env.VITE_API_KEY,
+    authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_APP_ID,
+    measurementId: import.meta.env.VITE_MEASUREMENT_ID
+  });
+  
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey,
-  authDomain,
-  projectId,
-  storageBucket,
-  messagingSenderId,
-  appId,
-  measurementId
+    apiKey: import.meta.env.VITE_API_KEY,
+    authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_PROJECT_ID, 
+    storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_APP_ID,
+    measurementId: import.meta.env.VITE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
@@ -27,3 +29,5 @@ const analytics = getAnalytics(app);
 
 // Example: Log an event
 logEvent(analytics, 'notification_received'); // You can log different events here as per your requirement
+
+export { app }
