@@ -1,53 +1,54 @@
 import { useState } from "react";
-import axios from "axios";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
-interface SignUpProps {}
 
-const SignUp: React.FC<SignUpProps> = () => {
+const SignUp: React.FC = () => {
   const [email, setEmail] = useState("");
-  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setLoading(true);
+
+    const auth = getAuth(); // Initialize Firebase auth instance
+
     try {
-      const response = await axios.post("http://localhost:5173/signup", {
-        email,
-        username,
-        password,
-      });
-      localStorage.setItem("token", response.data.token);
+      // Create user with email and password using Firebase
+      await createUserWithEmailAndPassword( auth, email, password);
       alert("Sign Up Successful");
-    } catch (err) {
-      alert("Sign Up Failed");
+    } catch (err: unknown) {
+      if (err instanceof Error) {
+      setError(err.message); // Handle any Firebase errors
+      } else {
+        setError("An unknown error occured.");
+      }
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
-    <>
-      <form onSubmit={handleSubmit}>
-        <h2>Sign Up</h2>
-        <input
-          type="email"
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <input
-          type="text"
-          placeholder="Username"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <button type="submit">Sign Up</button>
-      </form>
-    </>
+    <form onSubmit={handleSubmit}>
+      <h2>Sign Up</h2>
+      {error && <p style={{ color: "red" }}>{error}</p>}
+      <input
+        type="email"
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
+      <button type="submit" disabled={loading}>
+        {loading ? "Signing Up..." : "Sign Up"}
+      </button>
+    </form>
   );
 };
 
