@@ -2,15 +2,23 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics, logEvent } from "firebase/analytics";
 
+const apiKey = import.meta.env.apiKey
+const authDomain = import.meta.env.authDomain
+const projectId = import.meta.env.projectId
+const storageBucket = import.meta.env.storageBucket
+const messagingSenderId = import.meta.env.messagingSenderId
+const appId = import.meta.env.appId
+const measurementId = import.meta.env.measurementId
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCeLnLQe75Rzbai-F97QYvbsP99_aiNfWA",
-  authDomain: "bamfclone.firebaseapp.com",
-  projectId: "bamfclone",
-  storageBucket: "bamfclone.appspot.com",
-  messagingSenderId: "675385413150",
-  appId: "1:675385413150:web:d9239c0bebde7bbc08e80f",
-  measurementId: "G-N930S2FPB7"
+  apiKey,
+  authDomain,
+  projectId,
+  storageBucket,
+  messagingSenderId,
+  appId,
+  measurementId
 };
 
 // Initialize Firebase
