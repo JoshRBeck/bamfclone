@@ -1,61 +1,43 @@
-import { useState } from "react";
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import { app } from "../../firebase"
+import React, { useState } from 'react';
+import useSignUp from '../../composables/useSignUp';
 
-const SignUp: React.FC = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState<string | null>(null);
-  const [loading, setLoading] = useState(false);
+const SignupComponent = () => {
+  // const { error, isPending, signup } = useSignup();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const { signup, isPending, error } = useSignUp()
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setLoading(true);
+    await signup(email, password);
 
-    const auth = getAuth(app); // Initialize Firebase auth instance
-
-    try {
-      // Create user with email and password using Firebase
-      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-      const user = userCredential.user;
-
-      // Optionally store user UID in local storage
-      localStorage.setItem("userId", user.uid);
-
-      alert("Sign Up Successful");
-      // Redirect to another page or update UI accordingly
-    } catch (err: unknown) {
-      if (err instanceof Error) {
-        setError(err.message); // Handle any Firebase errors
-      } else {
-        setError("An unknown error occurred.");
-      }
-    } finally {
-      setLoading(false);
+    if (error) {
+      console.log(error)
     }
   };
 
+  console.log(email, password)
+
   return (
     <form onSubmit={handleSubmit}>
-      <h2>Sign Up</h2>
-      {error && <p style={{ color: "red" }}>{error}</p>}
       <input
         type="email"
-        placeholder="Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
+        placeholder="Email"
       />
       <input
         type="password"
-        placeholder="Password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
+        placeholder="Password"
       />
-      <button type="submit" disabled={loading}>
-        {loading ? "Signing Up..." : "Sign Up"}
+      <button type="submit" disabled={isPending}>
+        {isPending ? 'Signing up...' : 'Signup'}
       </button>
+      {error && <p>{error}</p>}
     </form>
   );
 };
 
-export default SignUp;
+export default SignupComponent;

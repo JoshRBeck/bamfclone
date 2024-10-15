@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-white border-b shadow-md">
-      <div className="container mx-auto flex justify-between items-center py-4 px-6">
+      <div className="flex container mx-auto flex justify-between items-center py-4 px-6">
         
         {/* Left Side - Logo/Image */}
         <div className="flex items-center">
